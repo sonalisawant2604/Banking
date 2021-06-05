@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class CartItemController {
 
-	@GetMapping("/")
+	@GetMapping("/demo")
 	public String display()
 	{
 		return "hello";
