@@ -6,9 +6,5 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class CartItemController {
 
-	@GetMapping("/demo")
-	public String display()
-	{
-		return "hello";
-	}
+	
 }
